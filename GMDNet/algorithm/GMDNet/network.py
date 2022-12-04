@@ -163,7 +163,7 @@ class Decoder(nn.Module):
 
     def forward(self, r):
         r_h = self.phi_h(r)
-        pi = F.softmax(self.phi_pi(r_h), -1)  # 基于route embedding 得到pi
+        pi = F.softmax(self.phi_pi(r_h), -1)
         mu = self.phi_mu(r_h)
         sigma = torch.exp(self.phi_sigma(r_h))
         return pi, mu, sigma
