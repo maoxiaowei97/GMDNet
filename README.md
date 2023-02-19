@@ -8,6 +8,7 @@ Use the following command to run the code:
 cd algorithm/GMDNet
 python train.py
 ```
+
 # Repo Structure
 The structure of our code and description of important files are given as follows:  
 │────algorithm/  
