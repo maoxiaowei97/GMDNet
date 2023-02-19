@@ -1,6 +1,7 @@
 # GMDNet
 **GMDNet: A Graph-Based Mixture Density Network for Estimating Packages’ Multimodal Travel Time Distribution**
 
+
 # Usage
 Use the following command to run the code:
 
